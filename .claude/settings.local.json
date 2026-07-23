@@ -5,7 +5,27 @@
       "Bash(python3 generate_patients_timeseries.py)",
       "Bash(python3 -c ' *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(python3 -c \"import xgboost; print\\('xgboost', xgboost.__version__\\)\")",
+      "Bash(python3 -c \"import shap; print\\('shap', shap.__version__\\)\")",
+      "Bash(python3 -c \"import sklearn; print\\('sklearn', sklearn.__version__\\)\")",
+      "Bash(python3 -c \"import matplotlib; print\\('matplotlib', matplotlib.__version__\\)\")",
+      "Bash(python3 -m pip install xgboost shap)",
+      "Bash(python3 -m pip install \"numpy<2\")",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/python -m pip install --quiet --upgrade pip)",
+      "Bash(.venv/bin/python -m pip install --quiet \"numpy<2\" pandas scikit-learn matplotlib xgboost shap)",
+      "Bash(python3 -m venv --system-site-packages .venv)",
+      "Bash(.venv/bin/python -m pip install --quiet xgboost \"shap<0.46\")",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(brew --version)",
+      "Bash(brew list *)",
+      "Bash(conda --version)",
+      "Read(//Users/eunseo/anaconda_new/anaconda3/bin/**)",
+      "Bash(/Users/eunseo/anaconda_new/anaconda3/bin/conda --version)",
+      "Bash(/Users/eunseo/anaconda_new/anaconda3/bin/conda install *)",
+      "Bash(python3 train_response_model.py)"
     ]
   }
 }
