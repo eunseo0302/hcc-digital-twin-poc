@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import numpy, pandas; print\\('numpy', numpy.__version__, 'pandas', pandas.__version__\\)\")",
+      "Bash(python3 generate_patients_timeseries.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
